@@ -1,4 +1,7 @@
-from ..conf import *    #Import everything from the common configuration file
+import sys
+sys.path.insert(0, 'docs')
+
+from conf import *    #Import everything from the common configuration file
 
 #language set up
 #Use the right code from https://docs.readthedocs.com/platform/latest/localization.html
