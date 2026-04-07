@@ -10,5 +10,5 @@ language = 'en'
 
 #set paths to "_static" and "_templates"
 # they are shared to avoid duplication
-html_static_path = ['_static', '../_static']
-templates_path = ['_templates', '.._templates']
+html_static_path = ['_static', 'docs/_static']
+templates_path = ['_templates', 'docs/_templates']
