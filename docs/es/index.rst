@@ -1,3 +1,5 @@
+**Idiomas:** `English <../en/index.html>`_ | Español
+
 Documentación de SATRE - test
 ======================
 

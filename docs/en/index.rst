@@ -1,7 +1,10 @@
+**Languages:** English | `Español <../es/index.html>`_
+
 SATRE Documentation test
 ===================
 
 Welcome to the SATRE project documentation test.
+
 
 .. toctree::
    :maxdepth: 2
