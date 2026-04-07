@@ -6,6 +6,12 @@ from docutils.statemachine import ViewList
 from sphinx.util.docutils import SphinxDirective
 from pathlib import Path
 
+#DO NOT SET UP LANGUAGE HERE
+#For each language create a new directory
+#Then create a new config.py file in it
+# in the config file set the language using the correct code
+# and change the COLUMNS accordingly
+
 # Define the columns and their proportional widths for the table
 # Format: (field_name, width, display_name)
 # Note: pillar column removed as it will be shown as section headings
