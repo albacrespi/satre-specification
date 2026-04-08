@@ -12,13 +12,13 @@ build:
     pre_build:
       #- cd docs && make satrecsv-copy
       - echo "ES Executing custom build steps..."
-      - cd docs
+      - cd docs && cd es
       - make satrecsv-copy
     post_build:
       # Check satre.xlsx was correctly copied
       #- cd docs && make check-satrecsv
       - echo "ES Executing custom post build checks..."
-      - cd docs
+      - cd docs && cd es
       - make check-satrecsv
 
 sphinx:
