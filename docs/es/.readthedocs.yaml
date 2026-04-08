@@ -16,7 +16,7 @@ build:
       - cd docs && make check-satrecsv
 
 sphinx:
-  configuration: docs/conf.py #default for the projet
+  configuration: docs/es/conf.py #default for the projet is English language
 
 formats:
   - epub
