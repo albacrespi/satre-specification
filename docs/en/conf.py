@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(0, 'docs')
+#sys.path.insert(0, 'docs')
+sys.path.append("..")
 
 from conf import *    #Import everything from the common configuration file
 

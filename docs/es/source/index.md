@@ -1,3 +1,5 @@
+**Idiomas:** `English <../en/index.html>`_ | Español
+
 # Arquitectura estándar para entornos de investigación confiables (SATRE)
 
 ```{toctree}
