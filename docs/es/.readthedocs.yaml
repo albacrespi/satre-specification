@@ -10,10 +10,14 @@ build:
     python: "3.13"
   jobs:
     pre_build:
-      - cd ../docs && make satrecsv-copy
+      #- cd docs && make satrecsv-copy
+      - echo "Executing custom build steps..."
+      - make docs/satrecsv-copy
     post_build:
       # Check satre.xlsx was correctly copied
-      - cd ../docs && make check-satrecsv
+      #- cd docs && make check-satrecsv
+      - echo "Executing custom post build checks..."
+      - make docs/check-satrecsv
 
 sphinx:
   configuration: docs/es/conf.py #default for the projet is English language
