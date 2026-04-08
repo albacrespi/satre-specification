@@ -12,13 +12,15 @@ build:
     pre_build:
       #- cd docs && make satrecsv-copy
       - echo "Executing custom build steps..."
-      - make docs/satrecsv-copy
+      - cd docs
+      - make satrecsv-copy
+      - cd ..
     post_build:
       # Check satre.xlsx was correctly copied
       #- cd docs && make check-satrecsv
       - echo "Executing custom post build checks..."
-      - make docs/check-satrecsv
-
+      - cd docs
+      - make check-satrecsv
 sphinx:
   configuration: docs/en/conf.py #default for the projet is English language
 
