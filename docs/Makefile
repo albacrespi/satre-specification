@@ -19,6 +19,12 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+# Generate the satrecsv file (put your actual generation commands here)
+satrecsv:
+	@echo "=== Generating satre.xlsx with satrecsv.py ==="
+	cd .. && python satrecsv.py
+	@echo "Generation completed."
+
 # satrecsv is written to build/satrecsv and not READTHEDOCS_OUTPUT
 # because it's run by us in build.jobs.pre_build, not by readthedocs
 satrecsv-copy: satrecsv
