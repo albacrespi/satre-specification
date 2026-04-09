@@ -48,7 +48,7 @@ specification:
   - pillar: Gobernanza de la información
     capability: Gestión de la calidad
     capability_index: "1.2"
-    requirement_index: 1.1.2
+    requirement_index: 1.2.2
     statement: Debe utilizarse el control de versiones y un procedimiento de
       cambios codificado para todas las políticas y procedimientos operativos estándar.
     guidance: Esto puede incluir informes y paneles que muestren 
