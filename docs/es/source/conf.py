@@ -14,7 +14,7 @@ version = "0.0.0"
 
 # -- General configuration
 
-extensions_dir = Path(__file__).absolute().parent.parent / "extensions"
+extensions_dir = Path(__file__).absolute().parent.parent.parent / "extensions"
 print(extensions_dir)
 sys.path.append(str(extensions_dir))
 
@@ -34,7 +34,7 @@ extensions = [
 # html_extra_pathand attrs_inline allows us to use a consistent URL by copying
 # in satre.xlsx outside sphinx and treating it as an external URL
 # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#customising-external-url-resolution
-html_extra_path = ["../generated/"]
+html_extra_path = ["../../generated/"]
 
 linkcheck_ignore = [
     "satre.xlsx",
