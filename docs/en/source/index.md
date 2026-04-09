@@ -1,5 +1,3 @@
-**Languages:** English | `Español <../es/index.html>`_
-
 # Standard Architecture for Trusted Research Environments (SATRE)
 
 ```{toctree}
