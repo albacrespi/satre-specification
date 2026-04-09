@@ -12,8 +12,7 @@ build:
     pre_build:
       #- cd docs && make satrecsv-copy
       - echo "Executing custom build steps..."
-      - python satrecsv.py && cp -f build/satrecsv/satre.xlsx generated/
-      #- cd docs/en && make satrecsv-copy
+      - cd docs/en && make satrecsv-copy
     post_build:
       # Check satre.xlsx was correctly copied
       #- cd docs && make check-satrecsv

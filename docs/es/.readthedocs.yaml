@@ -11,8 +11,7 @@ build:
   jobs:
     pre_build:
       - echo "ES Executing custom build steps..."
-      - python satrecsv.py && cp -f build/satrecsv/satre.xlsx generated/
-      #- cd docs/es && make satrecsv-copy
+      - cd docs/es && make satrecsv-copy
     post_build:
       # Check satre.xlsx was correctly copied
       - echo "ES Executing custom post build checks..."
