@@ -1,0 +1,16 @@
+/* Fix spec tables overflowing after new language addition */
+table.spec-table {
+    width: 100% !important;
+    table-layout: fixed !important;
+    display: table !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+table.spec-table td,
+table.spec-table th {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    white-space: normal !important;
+}

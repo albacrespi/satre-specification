@@ -1,8 +1,13 @@
 # Cambios
 
+## v1.1.1 - 2025-04-15
+
+- Se añadió la traducción a español.
+
 ## v1.1.1 - 2025-10-01
 
 ### Alineación y arquitectura
+
 - Se añadió la Tabla de alineación de controles centrada en SATRE para entornos de investigación confiables, que compara controles entre otros modelos de aseguramiento y acreditación.
 - Se corrigieron algunos errores tipográficos menores
 
