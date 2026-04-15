@@ -10,15 +10,12 @@ build:
     python: "3.13"
   jobs:
     pre_build:
-      - echo "ES Executing custom build steps..."
-      #- cd docs/es && make satrecsv-copy
+      - cd docs/en && make satrecsv-copy
     post_build:
       # Check satre.xlsx was correctly copied
-      - echo "ES Executing custom post build checks..."
-      #- cd docs && make check-satrecsv
-
+      - cd docs/en && make check-satrecsv
 sphinx:
-  configuration: docs/es/conf.py #default for the projet is English language
+  configuration: docs/es/source/conf.py #default for the projet is English language
 
 formats:
   - epub

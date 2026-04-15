@@ -1,11 +1,13 @@
-# docs/es/Makefile
+# 1. Force the default goal to be 'help' (from the parent)
+.DEFAULT_GOAL := help
 
-# 1. Path to the main build directory
-BUILDDIR      = ../_build
+# 2. Set your specific paths
+SOURCEDIR = ./source
+BUILDDIR  = ../_build
 
-# 2. Include the logic from the parent
+# 3. Prevent the catch-all loop
+Makefile: ;
+../Makefile: ;
+
+# 4. Include the logic from the parent
 include ../Makefile
-
-# 3. Override the source directory to the current folder
-# This ensures it builds the English files, not the Spanish ones
-SOURCEDIR     = .
