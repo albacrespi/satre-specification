@@ -16,11 +16,8 @@ table.docutils {
 .rst-content table.docutils td,
 .wy-table-responsive table th,
 .wy-table-responsive table td {
-    word-wrap: break-word;
     overflow-wrap: break-word;
     overflow: hidden;
     white-space: normal !important;
-    word-break: break-word !important;
-    hyphens: auto !important;
     padding: 8px 10px !important;
 }
