@@ -15,7 +15,7 @@ build:
       # Check satre.xlsx was correctly copied
       - cd docs/en && make check-satrecsv
 sphinx:
-  configuration: docs/es/source/conf.py #default for the projet is English language
+  configuration: docs/en/source/conf.py #default for the projet is English language
 
 formats:
   - epub
