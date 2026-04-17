@@ -19,5 +19,6 @@ table.docutils {
     overflow-wrap: break-word;
     overflow: hidden;
     white-space: normal !important;
+    hyphens: auto !important;
     padding: 8px 10px !important;
 }

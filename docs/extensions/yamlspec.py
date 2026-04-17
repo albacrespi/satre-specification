@@ -18,11 +18,11 @@ from pathlib import Path
 # Note: pillar column removed as it will be shown as section headings
 # Statement and guidance columns have equal width for balance
 COLUMNS = [
-    ("requirement_index", 4, "SATRE Ref"),
-    ("capability", 12, None),
-    ("statement", 38, None),
-    ("guidance", 38, None),
-    ("importance", 8, None),
+    ("requirement_index", 10, "SATRE Ref"),
+    ("capability", 16, None),
+    ("statement", 30, None),
+    ("guidance", 30, None),
+    ("importance", 14, None),
 ]
 
 
