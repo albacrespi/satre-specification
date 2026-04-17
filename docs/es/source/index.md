@@ -112,7 +112,7 @@ Dos miembros del público formaron parte del equipo central del proyecto SATRE d
 ## Versiones
 
 ```{list-table}
-:widths: 12 14 74
+:widths: 12 18 70
 :header-rows: 1
 
 * - Versión
