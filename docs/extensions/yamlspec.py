@@ -20,9 +20,9 @@ from pathlib import Path
 COLUMNS = [
     ("requirement_index", 10, "SATRE Ref"),
     ("capability", 16, None),
-    ("statement", 30, None),
+    ("statement", 28, None),
     ("guidance", 30, None),
-    ("importance", 14, None),
+    ("importance", 16, None),
 ]
 
 
