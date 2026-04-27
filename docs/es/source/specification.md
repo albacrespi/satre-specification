@@ -12,5 +12,6 @@ La especificación SATRE se organiza en cuatro pilares fundamentales que abarcan
 ---
 
 ```{yaml-specification} spec/specification.yaml
+   :columns: [["requirement_index", 10, "Ref SATRE"], ["capability", 16, "Capacidad"], ["statement", 27, "Declaración"], ["guidance", 30, "Guía"], ["importance", 17, "Importancia"]]
 
 ```
